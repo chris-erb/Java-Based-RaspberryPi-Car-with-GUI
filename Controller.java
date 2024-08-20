@@ -11,7 +11,7 @@ public class Controller {
     final GpioController gpio = GpioFactory.getInstance();
  
     GpioPinDigitalOutput MOTORS[] = {
-		gpio.provisionDigitalOutputPin(RaspiPin.GPIO_04, "Front L", PinState.LOW),
+	gpio.provisionDigitalOutputPin(RaspiPin.GPIO_04, "Front L", PinState.LOW),
         gpio.provisionDigitalOutputPin(RaspiPin.GPIO_05, "Front R", PinState.LOW),
         gpio.provisionDigitalOutputPin(RaspiPin.GPIO_06, "Back L", PinState.LOW),
         gpio.provisionDigitalOutputPin(RaspiPin.GPIO_07, "Back R", PinState.LOW)
@@ -44,10 +44,10 @@ public class Controller {
                         break;
                     default:
                     // Set all pins to low if any other key than 'WASD' is pressed.
-                    MOTORS[0].low();
-					          MOTORS[1].low();
-					          MOTORS[2].low();
-					          MOTORS[3].low();
+                    	MOTORS[0].low();
+			MOTORS[1].low();
+			MOTORS[2].low();
+			MOTORS[3].low();
                     
                 }
             }
