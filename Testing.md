@@ -1,4 +1,4 @@
-Branch Coverage Analysis:
+**Branch Coverage Analysis:**
 
 1.	IR Sensor State Handling: This critical branch of the system's functionality deals with input from the IR sensor. If the sensor detects an object (IR Sensor Value = High), the system executes a series of commands to halt motor functions and reset the user interface. This path logs the event and indicates to the user that movement has been stopped due to detected obstacles.
 
@@ -14,6 +14,6 @@ Branch Coverage Analysis:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Branch Coverage Testing:
+**Branch Coverage Testing:**
 
 ![Picture1](https://github.com/user-attachments/assets/ae6c37f1-d08a-4b96-b28f-060f716c096f)
