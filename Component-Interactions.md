@@ -6,6 +6,7 @@
 1. Raspberry Pi
 
 ●	Role:
+
   -	Acts as the central control unit, running the operating system and software that controls other hardware components. It processes input from the distance sensor and translates it into output commands for the motor driver. 
 
  ● Communication:
