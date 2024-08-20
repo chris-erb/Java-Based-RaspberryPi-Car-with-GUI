@@ -83,7 +83,7 @@ public class Controller {
     }
 
     public static void main(String[] args) {
-		// Create a GUI object and a Controller object (utilizing GUI object)
+	// Create a GUI object and a Controller object (utilizing GUI object)
         GUI gui = new GUI();
         Controller controller = new Controller(gui);
 
